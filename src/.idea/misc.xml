@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gui_p/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/episode_listitem.xml" value="0.275" />
+        <entry key="..\:/Users/gui_p/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_episode.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/gui_p/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/gui_p/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/fragment_show_detail.xml" value="0.25" />
+        <entry key="..\:/Users/gui_p/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/genre_listitem.xml" value="0.275" />
+        <entry key="..\:/Users/gui_p/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/season_spinner.xml" value="0.275" />
+        <entry key="..\:/mygit/tvmaze/tvmazeandroid/app/src/main/res/layout/fragment_show_detail.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

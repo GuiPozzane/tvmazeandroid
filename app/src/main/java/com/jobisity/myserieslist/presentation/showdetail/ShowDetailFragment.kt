@@ -48,6 +48,8 @@ class ShowDetailFragment : Fragment(R.layout.fragment_show_detail) {
         super.onViewCreated(view, savedInstanceState)
     }
     private fun populatePage(){
+        if(viewModel.show == null)
+            return;
         viewModel.show.observe(viewLifecycleOwner, Observer {
             if(it != null) {
                 if(!it.image?.original.isNullOrEmpty())
@@ -79,7 +81,7 @@ class ShowDetailFragment : Fragment(R.layout.fragment_show_detail) {
                     OnItemSelectedListener {
                     override fun onItemSelected(
                         parent: AdapterView<*>?,
-                        view: View,
+                        view: View?,
                         position: Int,
                         id: Long
                     ) {

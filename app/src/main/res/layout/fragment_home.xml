@@ -23,6 +23,7 @@
 
     </TextView>
     <LinearLayout
+        android:id="@+id/home_paging"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="50dp">
@@ -49,7 +50,6 @@
         android:padding="20dp"
         android:id="@+id/home_gridView"
         android:numColumns="3"
-        android:layout_marginBottom="50dp"
         android:horizontalSpacing="10dp"
         android:verticalSpacing="10dp"
         android:layout_width="match_parent"

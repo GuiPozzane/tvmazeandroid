@@ -79,13 +79,15 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         binding.homeSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
     override fun onQueryTextSubmit(query: String): Boolean {
         viewModel.searchShow(query);
+        binding.homePaging.visibility = View.GONE
         return true
     }
 
     override fun onQueryTextChange(newText: String): Boolean {
         if(newText.length > 0)
             return false;
-        viewModel.loadList(1);
+        viewModel.loadList(0);
+        binding.homePaging.visibility = View.VISIBLE
         return false
     }
 }     )

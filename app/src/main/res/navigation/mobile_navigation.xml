@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.jobisity.myserieslist.presentation.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_showDetail"
+            app:destination="@id/navigation_showDetail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.jobisity.myserieslist.presentation.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/navigation_showDetail"
+        android:name="com.jobisity.myserieslist.presentation.showdetail.ShowDetailFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/fragment_show_detail" />
+
+    <fragment
+        android:id="@+id/navigation_episodeDetail"
+        android:name="com.jobisity.myserieslist.presentation.episode.EpisodeFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/fragment_show_detail" />
+
+
+</navigation>
